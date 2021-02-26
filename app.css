@@ -31,13 +31,12 @@ body {
 .cards {
     display: flex;
     flex-flow: row wrap;
-    margin: 1em;
 }
 
 
 .sezione h2 {
     text-transform: uppercase;
-    font-family: 'Paytone One', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 40px;
     color: rgb(9, 124, 188);
 }
