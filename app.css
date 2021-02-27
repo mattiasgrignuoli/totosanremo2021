@@ -4,14 +4,17 @@
     box-sizing: border-box;
 
 }
-
+/* COLORE DI SFONDO  */
 body {
-    background-color: rgb(218, 224, 218);
+    background: linear-gradient(0deg, rgba(233,233,225,0.93) 0%, rgba(255,245,212,0.93) 100%);
 }
+
+/* HEADER  */
 #logo {
     width: 36em;
 }
 
+/* CONTENITORE GENERALE */
 .container {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
@@ -19,7 +22,7 @@ body {
     justify-content: flex-start;
     align-items: center;
 }
-
+/* STYLING DELLE SEZIONI DEL SITO  */
 .sezione {
     background-color: rgba(255, 255, 255, .75);
     border-radius: 2em;
@@ -27,19 +30,39 @@ body {
     width: 80% ;
     margin: 20px;
 }
-
+/* STYLING DELLA SEZIONE UTENTI */
 .cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) ;
+    grid-template-columns: repeat(auto-fit, minmax(300px, .75fr)) ;
 }
 
-
+/* STYLING DEI TITOLI  */
 .sezione h2 {
     text-transform: uppercase;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 40px;
     color: rgb(9, 124, 188);
 }
+
+.regolamento h2:last-of-type{
+    text-align: center;
+}
+
+.sezione h3 {
+    color: rgb(9, 124, 188);
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 12px  0;
+    text-indent: 20px;
+}
+
+/* STYLING DEI PARAGRAFI  */
+.regolamento p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: px;
+    color: rgb(9, 124, 188);
+}
+
 
 section p {
     display: block;
