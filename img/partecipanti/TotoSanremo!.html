@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TotoSanremo!</title>
-    <link rel="stylesheet" href="app.css">
-</head>
+    
+<link rel="stylesheet" href="./TotoSanremo!_files/app.css"></head>
 <body>    
 
     <div class="container">
         <header>   
-            <img id="logo" src="/img/logo_totosanremo.png" alt=""Logo di Totosanremo">
+            <img id="logo" src="./TotoSanremo!_files/logo_totosanremo.png" alt="" logo="" di="" totosanremo"="">
         </header>
         <section class="sezione regolamento">
             <h2>Regolamento</h2>
@@ -31,7 +31,7 @@
                         <span class="nome-utente">Deborah</span>
                         <span class="punteggio">Punteggio: 0</span>
                     </p>
-                    <img src="img/partecipanti/deb.jpg" alt="deborah">
+                    <img src="./TotoSanremo!_files/deb.jpg" alt="deborah">
                     <div class="overlay"></div>
                 </div>
                 <div class="card">
@@ -39,7 +39,7 @@
                         <span class="nome-utente">Elena</span>
                         <span class="punteggio">Punteggio: 0</span>
                     </p>
-                    <img src="img/partecipanti/elena.jpg" alt="elena">
+                    <img src="./TotoSanremo!_files/elena.jpg" alt="elena">
                     <div class="overlay"></div>
                 </div>
                 <div class="card">
@@ -47,7 +47,7 @@
                         <span class="nome-utente">Lara P.</span>
                         <span class="punteggio">Punteggio: 0</span>
                     </p>
-                    <img src="img/partecipanti/larap.jpg" alt="larap">
+                    <img src="./TotoSanremo!_files/larap.jpg" alt="larap">
                     <div class="overlay"></div>
                 </div>
                 <div class="card">
@@ -55,7 +55,7 @@
                         <span class="nome-utente">Lara U.</span>
                         <span class="punteggio">Punteggio: 0</span>
                     </p>
-                    <img src="img/partecipanti/larau.jpg" alt="larau">
+                    <img src="./TotoSanremo!_files/larau.jpg" alt="larau">
                     <div class="overlay"></div>
                 </div>
                 <div class="card">
@@ -63,7 +63,7 @@
                         <span class="nome-utente">Valentina</span>
                         <span class="punteggio">Punteggio: 0</span>
                     </p>
-                    <img src="img/partecipanti/valentina.jpg" alt="valentina">
+                    <img src="./TotoSanremo!_files/valentina.jpg" alt="valentina">
                     <div class="overlay"></div>
                 </div>
                 <div class="card">
@@ -71,7 +71,7 @@
                         <span class="nome-utente">Salvatore</span>
                         <span class="punteggio">Punteggio: 0</span>
                     </p>
-                    <img src="img/partecipanti/salvatore.jpg" alt="salvatore">
+                    <img src="./TotoSanremo!_files/salvatore.jpg" alt="salvatore">
                     <div class="overlay"></div>
                 </div>
                 <div class="card">
@@ -79,7 +79,7 @@
                         <span class="nome-utente">Enrico</span>
                         <span class="punteggio">Punteggio: 0</span>
                     </p>
-                    <img src="img/partecipanti/enrico.jpg" alt="enrico">
+                    <img src="./TotoSanremo!_files/enrico.jpg" alt="enrico">
                     <div class="overlay"></div>
                 </div>
                 <div class="card">
@@ -87,7 +87,7 @@
                         <span class="nome-utente">Masoud</span>
                         <span class="punteggio">Punteggio: 0</span>
                     </p>
-                    <img src="img/partecipanti/masoud.jpg" alt="masoud">
+                    <img src="./TotoSanremo!_files/masoud.jpg" alt="masoud">
                     <div class="overlay"></div>
                 </div>
                 <div class="card">
@@ -95,12 +95,49 @@
                         <span class="nome-utente">Mattia</span>
                         <span class="punteggio">Punteggio: 0</span>
                     </p>               
-                    <img src="img/partecipanti/mattia.jpg" alt="mattia">
+                    <img src="./TotoSanremo!_files/mattia.jpg" alt="mattia">
                     <div class="overlay"></div>
                 </div>    
             </div>
         </section>
     </div>
 
-</body>
-</html>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
