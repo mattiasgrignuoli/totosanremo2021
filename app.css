@@ -22,15 +22,16 @@ body {
 
 .sezione {
     background-color: rgba(255, 255, 255, .75);
-    border-radius: 1em;
-    margin: 1em;
+    border-radius: 2em;
     padding: 70px 100px;
     width: 80% ;
+    margin: 20px;
 }
 
 .cards {
     display: flex;
     flex-flow: row wrap;
+    min-width: 500px;
 }
 
 
@@ -51,7 +52,7 @@ section p {
     position: relative;
     height: 400px;
     width: 400px;
-    margin: 1em;
+    margin: 20px;
 }
 
 .partecipanti img {
