@@ -67,14 +67,12 @@ nav a:hover {
 nav img {
     width: 10%;
     min-height: 30px;
-    
 }
 
-}
 /* STYLING DELLA SEZIONE UTENTI */
 .cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, .75fr)) ;
+    grid-template-columns: repeat(auto-fit, minmax(280px, .75fr)) ;
 }
 
 /* STYLING DEI TITOLI  */
@@ -100,7 +98,6 @@ nav img {
 /* STYLING DEI PARAGRAFI DEL REGOLAMENTO  */
 .regolamento p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: px;
     color: rgb(9, 124, 188);
 }
 
@@ -142,8 +139,7 @@ section p {
 /* STYLING NOME UTENTE  */
 .nome-utente {
     display: block;
-
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: bolder;
 }
 
@@ -178,4 +174,11 @@ div.card:hover .overlay{
 .card:hover .utente {
     display: block;
 
+}
+
+#time {
+    color: rgb(9, 124, 188);
+    font-size: 2.2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
 }
