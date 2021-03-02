@@ -1,4 +1,4 @@
-const deadLine = "March 2 2021 19:00 GMT+0100"
+const deadLine = "March 3 2021 19:00 GMT+0100"
 function getTimeRemaining(endtime){
     const total = Date.parse(endtime) - Date.parse(new Date());
     const seconds = Math.floor((total/1000) % 60);
